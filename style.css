@@ -1,66 +1,66 @@
 * {
-    font-family: Helvetica;
-    font-weight: bold;
-}
-body {
-    margin: 60px;
+  font-family: Helvetica;
+  font-weight: bold;
 }
 
 #container {       
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: space-evenly;
-    border-style: groove;
-    background-color: #d7d7d7; 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border-style: groove;
+  background-color: #d7d7d7; 
+  margin: 250px;
 }
 
 #bag,
 #t-shirt,
 #shoes {
-    margin: 20px;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: space-around;
-    align-content: center;
-    background-color: #ffffff;
-    padding: 15px;
-  }
+  margin: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: space-around;
+  align-content: center;
+  background-color: #ffffff;
+  padding: 15px;
 
-.bottom {
-   display: flex;
-   justify-content: space-around;
-   padding: 10px;
 }
 
 h1 {
-    background-color: #d7d7d7;
-    text-transform: uppercase;
-    text-align: center;
+  background-color: #d7d7d7;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 img {
-    height: 200px;
-    width: 200px;
-    border-style: groove;
-    border-radius: 5px;
-    background-color: #d7d7d7;
+  height: 200px;
+  width: 200px;
+  border-style: groove;
+  border-radius: 5px;
+  background-color: #d7d7d7;
+
 }
 img:active {
 transform: scale(2.5);
 transition: transform .2s;
 }
 
- i {
-    margin-left: 7px;
-    margin-bottom: 2px;
-    cursor: pointer;
-  }
+.bottom {
+ display: flex;
+ justify-content: space-around;
+ padding: 10px;
+}
 
-  button {
-    cursor: pointer;
-    border-radius: 5px;
-    height: 20px;
-  }
+i {
+  margin-left: 7px;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  height: 20px;
+}
 
